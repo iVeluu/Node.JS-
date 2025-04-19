@@ -5,7 +5,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "ts-node index.ts",
+    "module3": "ts-node ./module-3/EventEmmiter.ts"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,12 @@
   },
   "homepage": "https://github.com/iVeluu/Node.JS-#readme",
   "devDependencies": {
-    "ts-node": "10.9.2",
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.14.1",
     "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "express": "^5.1.0"
   }
 }
